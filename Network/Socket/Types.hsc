@@ -82,6 +82,8 @@ module Network.Socket.Types (
     , htonl
     , ntohl
     , In6Addr(..)
+
+    , sizeOfSockAddr
     ) where
 
 import Data.IORef (IORef, newIORef, readIORef, atomicModifyIORef', mkWeakIORef)
